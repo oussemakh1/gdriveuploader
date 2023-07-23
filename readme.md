@@ -18,16 +18,16 @@ gdriveuploader is a GoLang package that provides a simple utility to upload file
         You need to provide the ID of the Google Drive folder where you want to upload the files.
         The folder ID can be obtained from the URL when you navigate to the folder on Google Drive.
 ## Installation
-To use the gdriveuploader package, you need to install it into your Go workspace:
+    To use the gdriveuploader package, you need to install it into your Go workspace:
 
 ``` bash
-    go get github.com/your-username/gdriveuploader
+    go get github.com/oussemakh1/gdriveuploader
 ```
 ## Usage
     Import the package in your Go code:
     ```go
 
-        import "github.com/your-username/gdriveuploader"
+        import "github.com/oussemakh1/gdriveuploader"
     ```
     Initialize the GoogleDriveUploader:
     ```go
